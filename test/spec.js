@@ -5,7 +5,7 @@ const should = chai.should();
 describe('Matrix Generator', function() {
   it('should return an array', function() {
     const matrix = matrixGenerator(4, 4);
-    matrix.should.be.an.array();
+    matrix.should.be.a('array');
   });
 
   it('should have the right number of rows and columns', function() {
