@@ -1,0 +1,24 @@
+{
+  "name": "Challenge-Matrix-Generator",
+  "version": "1.0.0",
+  "description": "Write an function that takes 2 inputs:",
+  "main": "matrix-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/Challenge-Matrix-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/Challenge-Matrix-Generator/issues"
+  },
+  "homepage": "https://github.com/devleague/Challenge-Matrix-Generator#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
