@@ -16,3 +16,13 @@ Ex.
 
 Output:
 [[1, 2 ,3], [4,5,6], [7,8,9]]
+
+
+### Stretch Goal
+Sort the inner arrays so that the first index is in order.
+
+Example (before stretch):  
+[[2,3,4], [1,5,6], [7,8,9]]
+
+Output (after stretch):  
+[[1,5,6], [2,3,4], [7,8,9]]
