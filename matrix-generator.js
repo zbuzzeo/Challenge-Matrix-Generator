@@ -1,4 +1,4 @@
-function matrixGenerator() {
+function matrixGenerator(rows, columns) {
   // do work here
 }
 
