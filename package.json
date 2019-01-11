@@ -4,7 +4,7 @@
   "description": "Write an function that takes 2 inputs:",
   "main": "matrix-generator.js",
   "scripts": {
-    "test": "mocha --bail --watch"
+    "test": "mocha --watch"
   },
   "repository": {
     "type": "git",

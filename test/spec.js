@@ -30,3 +30,17 @@ describe('Matrix Generator', function() {
 
 
 // STRECTH GOAL: Re-sort the arrays based on the first index
+describe('Stretch Goals', function() {
+  it('should have the nested arrays sorted by first index', function() {
+    const matrix = matrixGenerator(5, 5);
+
+    const firstIndexes = [];
+    matrix.forEach((row) => {
+      firstIndexes.push(row[0]);
+    });
+
+    const sortedFirstIndex = [].concat(firstIndexes);
+    sortedFirstIndex.sort((a, b) => { return a - b; });
+    sortedFirstIndex.should.deep.equal(firstIndexes);
+  });
+});
