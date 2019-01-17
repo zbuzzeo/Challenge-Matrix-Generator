@@ -14,11 +14,12 @@ function matrixGenerator(rows, columns) {
     matrix.push(newRow);
   }
 
-  const firstIndexes = [];
+  // Stretch Goal:
+  // const firstIndexes = [];
 
-  matrix.forEach(row => {
-    // firstIndexes.push(row[0]);
-  });
+  // matrix.forEach(row => {
+  //   // firstIndexes.push(row[0]);
+  // });
 
   console.log(matrix);
   return matrix;
